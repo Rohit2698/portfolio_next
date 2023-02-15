@@ -1,17 +1,20 @@
-import { Button } from '@mui/material';
+import { ButtonProps } from '@mui/material';
 import React, { FC } from 'react'
 import { StyledButton } from './Style';
 
 type Props = {
     isLoading?: boolean;
     text: string;
-}
+} & ButtonProps
 const PrimaryButton:FC<Props> = ({
     text,
-    isLoading
+    isLoading,
+    ...rest
 }) => {
   return (
-    <StyledButton>{text}</StyledButton>
+    <StyledButton {...rest}>
+      {text}
+      </StyledButton>
   )
 }
 

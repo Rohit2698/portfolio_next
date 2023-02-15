@@ -9,10 +9,13 @@ import AnimatedCursor from "./container/cursor";
 import Contact from "./container/contact";
 import Navbar from "./container/navbar";
 import Footer from "./container/footer";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <>
+    <ToastContainer />
       <Navbar />
       <Header />
       <AbountMe />

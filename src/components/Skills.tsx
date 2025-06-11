@@ -82,7 +82,7 @@ const Skills = () => {
               Always learning and exploring new technologies
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              {['React Native', 'AI' ].map((tech) => (
+              {['React Native', 'AI', 'AWS' ].map((tech) => (
                 <span 
                   key={tech}
                   className="px-4 py-2 bg-slate-700/50 text-slate-300 rounded-full text-sm border border-slate-600 hover:border-blue-500 transition-colors duration-200"

@@ -11,7 +11,7 @@ const Projects = () => {
   const freelanceProjects = [
     {
       title: 'Cannabis Connection',
-      description: 'A website that is helping dispensary to sell the weed boxes and allow customer to select the boxes from different dispensary as per there location.',
+      description: 'A web platform that helps dispensaries sell curated weed boxes. Customers can browse and purchase boxes from various dispensaries based on their location.',
       image: Cannweb,
       technologies: ['React', 'Firebase', '@mui/material'],
       liveUrl: 'https://cannabisconn.com/',
@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: 'Cannabis Club',
-      description: 'A application that helps different dispensary to signup with our application and create products that they want to sell to there customers. Customer can signup with the website and buy the product subscription based or single product.',
+      description: 'An application that allows dispensaries to register and list products for sale. Customers can sign up to purchase items either as one-time products or through a subscription model.',
       image: Cannclub,
       technologies: ['React', 'Firebase', 'Aeropay', 'NodeJs'],
       liveUrl: 'https://weedboxclub.com/',
@@ -28,22 +28,23 @@ const Projects = () => {
     },
     {
       title: 'Doubt Jee',
-      description: 'The Web application for the students. The Student can search for the questions and find the answers. The admin is allowed to enter question with answers.',
+      description: 'A web application designed for students to search academic questions and view answers. Admins can upload and manage question-answer content through a dedicated interface.',
       image: Doubt,
       technologies: ['React', 'Firebase'],
       liveUrl: 'https://doubtjee.com/',
       featured: false,
     },
   ];
+  
 
-const personalProject = [
+  const personalProject = [
     {
       id: 1,
       title: 'Haunted house',
       githubUrl: 'https://github.com/Rohit2698/threejs-projects',
       liveUrl: 'https://horrorgraveyard.netlify.app/',
       image: hauntedVillaImage,
-      descripiton: "This is just my side project. I was keen how the THREE JS work. And going through some documentation and stuff. Created this haunted villa.",
+      description: "This was a fun side project where I explored how THREE.js works. After going through some documentation and tutorials, I built a haunted villa to experiment with 3D rendering in the browser.",
       technologies: ['React', 'THREE JS'],
     },
     {
@@ -51,7 +52,7 @@ const personalProject = [
       title: 'Flappy bird - Clone',
       githubUrl: 'https://github.com/Rohit2698/flappy-bird-clone',
       liveUrl: 'https://sad-jang-66e512.netlify.app/',
-      description: "This may look easy project but it is worth it. This project is just for me to see can we create game using javascription. Learning DOM manipulation and stuff. It was fun creating this",
+      description: "Although this may look like a simple project, it was a valuable learning experience. I built this Flappy Bird clone to see if I could create a game using JavaScript, practicing DOM manipulation along the way. It was a lot of fun!",
       image: FlappyImage,
       technologies: ['React'],
     },
@@ -62,7 +63,7 @@ const personalProject = [
       liveUrl: 'https://moviechuno.netlify.app/',
       image: MovieImage,
       technologies: ['React'],
-      description: "This website is just a simple website which will help you find the movie when you feel bored. And also you can see the description of the movies"
+      description: "A simple movie search app to help you discover movies when you're feeling bored. You can search for titles and view their descriptions and details.",
     },
     {
       id: 5,
@@ -71,16 +72,17 @@ const personalProject = [
       liveUrl: 'https://user-images.githubusercontent.com/36307148/111283857-8ec49980-8665-11eb-9146-95edaf5678f0.mp4',
       image: NewsAppImage,
       technologies: ['React Native', 'Native Base'],
-      description: "A smooth react native news application. Which will will help you updated on what is happening in the world"
+      description: "A smooth and responsive React Native news application that keeps you updated with the latest happenings around the world.",
     },
   ]
+  
   return (
     <section id="projects" className="py-20 bg-slate-800">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Freelance <span className="text-blue-400">Projects</span>
+              Freelanced <span className="text-blue-400">Projects</span>
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
               A showcase of my recent work and creative solutions

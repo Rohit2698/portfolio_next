@@ -26,11 +26,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed">
-            Frontend Web/mobile Developer & UI/UX Enthusiast
+            Frontend Web/Mobile Developer & UI/UX Enthusiast
           </p>
           
           <p className="text-lg text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            I craft digital experiences that blend beautiful design with powerful functionality. 
+            I craft digital experiences that blend beautiful designs with powerful functionality. 
             Passionate about creating scalable web applications and intuitive user interfaces.
           </p>
 

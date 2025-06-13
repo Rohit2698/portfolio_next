@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Palette, Zap } from 'lucide-react';
 import MyLogo from "../assets/mylogo.png";
 
@@ -26,7 +25,7 @@ const About = () => {
               
               <p className="text-lg text-slate-300 leading-relaxed">
                 I specialize in modern JavaScript frameworks, cloud technologies, and user-centered 
-                design. When I'm not coding, you'll find me exploring new technologies, creating new project, or mentoring aspiring developers.
+                designs. When I'm not coding, you'll find me exploring new technologies, creating new project, or mentoring aspiring developers.
               </p>
               
               <div className="grid sm:grid-cols-3 gap-6 mt-8">

@@ -26,8 +26,8 @@ const Contact = () => {
     };
     emailjs
       .send(
-        "service_fsehudh",
-        "template_svrrbn9",
+        import.meta.env.VITE_EMAIL_SERVICE_KEY,
+        import.meta.env.VITE_EMAIL_TEMPLATE,
         templateParams,
         "oc863Ji72HvxCa3R5"
       )

@@ -82,7 +82,7 @@ const Projects = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Freelanced <span className="text-blue-400">Projects</span>
+              Freelance <span className="text-blue-400">Projects</span>
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
               A showcase of my recent work and creative solutions
